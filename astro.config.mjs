@@ -2,7 +2,6 @@ import { defineConfig } from "astro/config";
 import starlight from "@astrojs/starlight";
 import react from "@astrojs/react";
 
-// https://astro.build/config
 export default defineConfig({
   site: "https://axylprojects.dev/",
   base: "/",
@@ -30,7 +29,7 @@ export default defineConfig({
         twitch: "https://twitch.tv/axylprojects",
       },
       editLink: {
-        baseUrl: "https://github.com/Axyl-Sites/axyl.org/tree/main/",
+        baseUrl: "https://github.com/Axyl-Sites/axylprojects.org/tree/main/",
       },
 
       lastUpdated: true,
@@ -39,17 +38,19 @@ export default defineConfig({
         {
           label: "Announcements",
           items: [
-            // Each item here is one entry in the navigation menu.
             {
               label: "What is Happening",
               link: "/en/announcements/what-is-happening",
+            },
+            {
+              label: "We are hiring",
+              link: "/en/announcements/we-are-hiring",
             },
           ],
         },
         {
           label: "About Axyl Projects",
           items: [
-            // Each item here is one entry in the navigation menu.
             {
               label: "Manifesto",
               link: "/en/about/manifesto",
@@ -59,15 +60,14 @@ export default defineConfig({
               link: "/en/about/axyl-projects",
             },
             {
-              label: "Downloading Axyl Projects",
-              link: "/en/about/download",
+              label: "Background on Axyl Projects",
+              link: "/en/about/background",
             },
           ],
         },
         {
           label: "Projects",
           items: [
-            // Each item here is one entry in the navigation menu.
             {
               label: "Helctic",
               link: "/en/projects/helctic",
@@ -95,27 +95,71 @@ export default defineConfig({
           ],
         },
         {
-          label: "Customization",
+          label: "AxylOS",
           items: [
-            // Each item here is one entry in the navigation menu.
             {
-              label: "Customizing Shells",
-              link: "/en/customization/shell",
+              label: "About AxylOS",
+              link: "/en/axylos/about-axylos",
+            },
+          ],
+        },
+        {
+          label: "Helctic",
+          items: [
+            {
+              label: "About Helctic",
+              link: "/en/helctic/about-helctix",
+            },
+          ],
+        },
+        {
+          label: "Modded Android",
+          items: [
+            {
+              label: "About Modded Android",
+              link: "/en/modded-android/about-modded-android",
+            },
+          ],
+        },
+        {
+          label: "Rustfox",
+          items: [
+            {
+              label: "About Rustfox",
+              link: "/en/rustfox/about-rustfox",
+            },
+          ],
+        },
+        {
+          label: "Axyl Bot Service",
+          items: [
+            {
+              label: "About Axyl Bot Service",
+              link: "/en/axyl-bot-service/about-abs",
             },
             {
-              label: "Customizing Display Managers",
-              link: "/en/customization/display-manager",
+              label: "ABS Services",
+              items: [
+                {
+                  label: "Modmail",
+                  link: "/en/axyl-bot-service/abs-services/modmail",
+                },
+              ],
             },
+          ],
+        },
+        {
+          label: "Utilities",
+          items: [
             {
-              label: "Customizing Terminal Tools",
-              link: "/en/customization/terminal-tools",
+              label: "About Utilities",
+              link: "/en/utilities/about-utilities",
             },
           ],
         },
         {
           label: "Support",
           items: [
-            // Each item here is one entry in the navigation menu.
             {
               label: "Troubleshooting",
               link: "/en/support/troubleshooting",
@@ -125,7 +169,6 @@ export default defineConfig({
         {
           label: "Community",
           items: [
-            // Each item here is one entry in the navigation menu.
             {
               label: "Discord",
               link: "/en/community/discord",
@@ -141,10 +184,6 @@ export default defineConfig({
             {
               label: "Official Axyl Projects Mirrors",
               link: "/en/community/mirrors",
-            },
-            {
-              label: "Style Guide",
-              link: "/en/community/style-guide",
             },
             {
               label: "Setting up a Mirror",
@@ -167,7 +206,6 @@ export default defineConfig({
         {
           label: "Development",
           items: [
-            // Each item here is one entry in the navigation menu.
             {
               label: "Testing",
               link: "/en/development/testing",
@@ -177,17 +215,90 @@ export default defineConfig({
         {
           label: "Team",
           items: [
-            // Each item here is one entry in the navigation menu.
             {
-              label: "Austin 'AWFixer' Ware",
-              link: "/en/team/awfixer",
+              label: "About the Team",
+              link: "/en/team/about-the-team",
+            },
+            {
+              label: "Managment",
+              items: [
+                {
+                  label: "revinant",
+                  link: "/en/team/management/revinant",
+                },
+                {
+                  label: "ByteHauler",
+                  link: "/en/team/management/bytehauler",
+                },
+                {
+                  label: "Kyeee",
+                  link: "/en/team/management/kyeee",
+                },
+              ],
+            },
+            {
+              label: "Owners",
+              items: [
+                {
+                  label: "Austin 'AWFixer' Ware",
+                  link: "/en/team/awfixer",
+                },
+                {
+                  label: "engineered",
+                  link: "/en/team/owners/engineered",
+                },
+              ],
+            },
+            {
+              label: "Development",
+              items: [
+                {
+                  label: "Adam",
+                  link: "/en/team/development/adam",
+                },
+              ],
+            },
+            {
+              label: "Design",
+              items: [
+                {
+                  label: "Artemis",
+                  link: "/en/team/design/artemis",
+                },
+              ],
+            },
+            {
+              label: "Community",
+              items: [
+                {
+                  label: "Ori",
+                  link: "/en/team/community/ori",
+                },
+              ],
+            },
+            {
+              label: "Waiting for You",
+              link: "/en/team/waiting",
+            },
+          ],
+        },
+        {
+          label: "Sites",
+          items: [
+            {
+              label: "ME",
+              items: [
+                {
+                  label: "AWFixer",
+                  link: "/en/sites/me/awfixer",
+                },
+              ],
             },
           ],
         },
         {
           label: "Policy",
           items: [
-            // Each item here is one entry in the navigation menu.
             {
               label: "Axyl Projects EULA",
               link: "/en/policy/eula-policy",
@@ -239,6 +350,5 @@ export default defineConfig({
     react(),
   ],
 
-  // Process images with sharp: https://docs.astro.build/en/guides/assets/#using-sharp
   image: { service: { entrypoint: "astro/assets/services/sharp" } },
 });
