@@ -30,7 +30,7 @@ export default defineConfig({
         //bluesky: "https://bshy.app"
       },
       editLink: {
-        baseUrl: "https://github.com/Axyl-Sites/axylprojects.org/tree/main/",
+        baseUrl: "https://github.com/Axyl-Sites/axylprojects.dev/tree/main/",
       },
 
       lastUpdated: true,
