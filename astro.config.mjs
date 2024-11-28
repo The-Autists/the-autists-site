@@ -27,6 +27,7 @@ export default defineConfig({
         discord: "https://discord.gg/J7R7sEZcn9",
         youtube: "https://youtube.com/@axylprojects",
         twitch: "https://twitch.tv/axylprojects",
+        //bluesky: "https://bshy.app"
       },
       editLink: {
         baseUrl: "https://github.com/Axyl-Sites/axylprojects.org/tree/main/",
@@ -66,31 +67,126 @@ export default defineConfig({
           ],
         },
         {
-          label: "Projects",
+          label: "Programs",
           items: [
             {
-              label: "Helctic",
-              link: "/en/projects/helctic",
+              label: "Dev Program",
+              items: [
+                {
+                  label: "About",
+                  link: "/en/porgrams/dev-program/program-info",
+                },
+                {
+                  label: "Pricing",
+                  link: "/en/programs/dev-program/pricing",
+                },
+                {
+                  label: "Availiblity",
+                  link: "/en/programs/dev-program/availibility",
+                },
+              ],
             },
             {
-              label: "RustFox",
-              link: "/en/projects/rustfox",
+              label: "Dev Program",
+              items: [
+                {
+                  label: "About",
+                  link: "/en/dev-program/program-info",
+                },
+                {
+                  label: "About",
+                  link: "/en/dev-program/program-info",
+                },
+                {
+                  label: "About",
+                  link: "/en/dev-program/program-info",
+                },
+              ],
             },
             {
-              label: "AxylOS",
-              link: "/en/projects/axylos",
+              label: "Dev Program",
+              items: [
+                {
+                  label: "About",
+                  link: "/en/dev-program/program-info",
+                },
+                {
+                  label: "About",
+                  link: "/en/dev-program/program-info",
+                },
+                {
+                  label: "About",
+                  link: "/en/dev-program/program-info",
+                },
+              ],
             },
             {
-              label: "Modded Android",
-              link: "/en/projects/modded-android",
+              label: "Dev Program",
+              items: [
+                {
+                  label: "About",
+                  link: "/en/dev-program/program-info",
+                },
+                {
+                  label: "About",
+                  link: "/en/dev-program/program-info",
+                },
+                {
+                  label: "About",
+                  link: "/en/dev-program/program-info",
+                },
+              ],
             },
             {
-              label: "Axyl Bot Service",
-              link: "/en/projects/abs",
+              label: "Dev Program",
+              items: [
+                {
+                  label: "About",
+                  link: "/en/dev-program/program-info",
+                },
+                {
+                  label: "About",
+                  link: "/en/dev-program/program-info",
+                },
+                {
+                  label: "About",
+                  link: "/en/dev-program/program-info",
+                },
+              ],
             },
             {
-              label: "Utilities",
-              link: "/en/projects/utilities",
+              label: "Dev Program",
+              items: [
+                {
+                  label: "About",
+                  link: "/en/dev-program/program-info",
+                },
+                {
+                  label: "About",
+                  link: "/en/dev-program/program-info",
+                },
+                {
+                  label: "About",
+                  link: "/en/dev-program/program-info",
+                },
+              ],
+            },
+            {
+              label: "Dev Program",
+              items: [
+                {
+                  label: "About",
+                  link: "/en/dev-program/program-info",
+                },
+                {
+                  label: "About",
+                  link: "/en/dev-program/program-info",
+                },
+                {
+                  label: "About",
+                  link: "/en/dev-program/program-info",
+                },
+              ],
             },
           ],
         },
@@ -221,6 +317,40 @@ export default defineConfig({
             },
             {
               label: "Managment",
+              items: [
+                {
+                  label: "revinant",
+                  link: "/en/team/management/revinant",
+                },
+                {
+                  label: "ByteHauler",
+                  link: "/en/team/management/bytehauler",
+                },
+                {
+                  label: "Kyeee",
+                  link: "/en/team/management/kyeee",
+                },
+              ],
+            },
+            {
+              label: "The Council",
+              items: [
+                {
+                  label: "revinant",
+                  link: "/en/team/management/revinant",
+                },
+                {
+                  label: "ByteHauler",
+                  link: "/en/team/management/bytehauler",
+                },
+                {
+                  label: "Kyeee",
+                  link: "/en/team/management/kyeee",
+                },
+              ],
+            },
+            {
+              label: "Partners",
               items: [
                 {
                   label: "revinant",

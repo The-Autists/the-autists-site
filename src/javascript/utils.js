@@ -1,7 +1,12 @@
-document.addEventListener('DOMContentLoaded', (event) => {
+document.addEventListener("DOMContentLoaded", (event) => {
   const letters = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
   const word = document.querySelector("#changing_text");
-  const texts = ["InfoSec Professionals.", "Bug Bounty Hunters.", "Passionate Students.", "Spicy Hackers."];
+  const texts = [
+    "Jr Professionals.",
+    "Bug Bounty Hunters.",
+    "Passionate Students.",
+    "Aspiring Hackers.",
+  ];
   let textIndex = 0;
 
   let isAnimating = false;
@@ -39,10 +44,10 @@ document.addEventListener('DOMContentLoaded', (event) => {
       if (iterations < word.innerText.length && isAnimating) {
         rafID = requestAnimationFrame(changeLetter);
       }
-    }
+    };
 
     rafID = requestAnimationFrame(changeLetter);
-  }
+  };
 
   animate();
 
@@ -53,7 +58,7 @@ document.addEventListener('DOMContentLoaded', (event) => {
     }
   }, 4000);
 
-  document.addEventListener('visibilitychange', function() {
+  document.addEventListener("visibilitychange", function () {
     if (document.hidden) {
       isAnimating = false;
       cancelAnimationFrame(rafID);

@@ -1,37 +1,12 @@
-# Axyl Projects Docs
-Made with Starlight(Astro).
+# Axyl Projects main website, maintained by [Austin "AWFixer" Ware](https://github.com/awfixer)
 
-## 🚀 Project Structure
+### There are many moving parts in this site and it is currently being actively worked
 
-Inside of your Astro + Starlight project, you'll see the following folders and files:
+## Goals of this site is to:
+- provide an overview of projects
+- provide an overview of services
+- provide an overview of news
+- provide an overview of staff
+- provide information on policies
 
-```
-.
-├── public/
-├── src/
-│   ├── assets/
-│   ├── content/
-│   │   ├── docs/
-│   │   └── config.ts
-│   └── env.d.ts
-├── astro.config.mjs
-├── package.json
-└── tsconfig.json
-```
-
-## Commands
-
-All commands are run from the root of the project, from a terminal:
-
-| Command                   | Action                                           |
-| :------------------------ | :----------------------------------------------- |
-| `npm install`             | Installs dependencies                            |
-| `npm run dev`             | Starts local dev server at `localhost:3000`      |
-| `npm run build`           | Build your production site to `./dist/`          |
-| `npm run preview`         | Preview your build locally, before deploying     |
-| `npm run astro ...`       | Run CLI commands like `astro add`, `astro check` |
-| `npm run astro -- --help` | Get help using the Astro CLI                     |
-
-## 👀 Want to learn more?
-
-Check out [Starlight’s docs](https://starlight.astro.build/), read [the Astro documentation](https://docs.astro.build), or jump into the [Astro Discord server](https://astro.build/chat).
+for any question you can either join the [Discord](https://axyl.wtf/discord) or send us an email @ devwork@awfixer.me
