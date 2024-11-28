@@ -10,3 +10,10 @@
 - provide information on policies
 
 for any question you can either join the [Discord](https://axyl.wtf/discord) or send us an email @ devwork@awfixer.me
+
+
+# Site Timeline:
+
+### Q1 2025:
+
+finish site.
