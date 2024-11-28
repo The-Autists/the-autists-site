@@ -27,7 +27,7 @@ export default defineConfig({
         discord: "https://discord.gg/J7R7sEZcn9",
         youtube: "https://youtube.com/@axylprojects",
         twitch: "https://twitch.tv/axylprojects",
-        //bluesky: "https://bshy.app"
+        blueSky: "https://bsky.app/profile/awfixer.me",
       },
       editLink: {
         baseUrl: "https://github.com/Axyl-Sites/axylprojects.dev/tree/main/",
