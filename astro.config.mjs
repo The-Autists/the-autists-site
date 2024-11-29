@@ -8,8 +8,7 @@ export default defineConfig({
   integrations: [
     starlight({
       title: "Axyl Projects",
-      description:
-        "Axyl Projects, a new FLOSS Distrobution, based on the helctic kernel.",
+      description: "Axyl Projects, a new Development soloution.",
       components: {
         TableOfContents: "./src/components/TOC.astro",
         PageTitle: "./src/components/CustomPageTitle.astro",
@@ -55,11 +54,11 @@ export default defineConfig({
           label: "Funding",
           items: [
             {
-              label: "What is Happening",
+              label: "How to Help",
               link: "/en/funding/how-to-help",
             },
             {
-              label: "We are hiring",
+              label: "What we need",
               link: "/en/funding/what-we-need",
             },
           ],
@@ -93,7 +92,7 @@ export default defineConfig({
               items: [
                 {
                   label: "About",
-                  link: "/en/porgrams/dev-program/program-info",
+                  link: "/en/programs/dev-program/program-info",
                 },
                 {
                   label: "Pricing",
@@ -110,7 +109,7 @@ export default defineConfig({
               items: [
                 {
                   label: "About",
-                  link: "/en/programs/mod-program/program-info",
+                  link: "/en/programs/mod-program/about",
                 },
                 {
                   label: "Availiblity",
@@ -127,15 +126,15 @@ export default defineConfig({
               items: [
                 {
                   label: "About",
-                  link: "/en/dev-program/program-info",
+                  link: "/en/programs/sysadmin-program/program-info",
                 },
                 {
-                  label: "About",
-                  link: "/en/dev-program/program-info",
+                  label: "Pricing",
+                  link: "/en/programs/sysadmin-program/pricing",
                 },
                 {
-                  label: "About",
-                  link: "/en/dev-program/program-info",
+                  label: "Availibility",
+                  link: "/en/programs/sysadmin-program/availiblity",
                 },
               ],
             },
@@ -144,7 +143,7 @@ export default defineConfig({
               items: [
                 {
                   label: "About",
-                  link: "/en/programs/netadmin-program/program-info",
+                  link: "/en/programs/netadmin-program/about",
                 },
                 {
                   label: "Pricing",
@@ -152,7 +151,7 @@ export default defineConfig({
                 },
                 {
                   label: "Availiblity",
-                  link: "/en/programs/dev-program/availiblity",
+                  link: "/en/programs/netadmin-program/availiblity",
                 },
               ],
             },
@@ -161,7 +160,7 @@ export default defineConfig({
               items: [
                 {
                   label: "About",
-                  link: "/en/dev-program/program-info",
+                  link: "/en/programs/onboarding-program/program-info",
                 },
               ],
             },
@@ -172,7 +171,7 @@ export default defineConfig({
           items: [
             {
               label: "About AxylOS",
-              link: "/en/axylos/about-axylos",
+              link: "/en/projects/axylos/about-axylos",
             },
           ],
         },
@@ -181,7 +180,7 @@ export default defineConfig({
           items: [
             {
               label: "About Helctic",
-              link: "/en/helctic/about-helctix",
+              link: "/en/projects/helctic/about-helctix",
             },
           ],
         },
@@ -190,7 +189,7 @@ export default defineConfig({
           items: [
             {
               label: "About Modded Android",
-              link: "/en/modded-android/about-modded-android",
+              link: "/en/projects/modded-android/about-modded-android",
             },
           ],
         },
@@ -199,7 +198,7 @@ export default defineConfig({
           items: [
             {
               label: "About Rustfox",
-              link: "/en/rustfox/about-rustfox",
+              link: "/en/projects/rustfox/about-rustfox",
             },
           ],
         },
@@ -208,14 +207,18 @@ export default defineConfig({
           items: [
             {
               label: "About Axyl Bot Service",
-              link: "/en/axyl-bot-service/about-abs",
+              link: "/en/projects/axyl-bot-service/about-abs",
             },
             {
               label: "ABS Services",
               items: [
                 {
                   label: "Modmail",
-                  link: "/en/axyl-bot-service/abs-services/modmail",
+                  link: "/en/projects/axyl-bot-service/abs-services/modmail",
+                },
+                {
+                  label: "General Purpose Bot",
+                  link: "/en/projects/axyl-bot-service/abs-services/gpb",
                 },
               ],
             },
@@ -226,7 +229,7 @@ export default defineConfig({
           items: [
             {
               label: "About Utilities",
-              link: "/en/utilities/about-utilities",
+              link: "/en/projects/utilities/about-utilities",
             },
           ],
         },
@@ -235,7 +238,7 @@ export default defineConfig({
           items: [
             {
               label: "Troubleshooting",
-              link: "/en/support/troubleshooting",
+              link: "/en/projects/support/troubleshooting",
             },
           ],
         },
