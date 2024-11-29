@@ -28,6 +28,8 @@ export default defineConfig({
         youtube: "https://youtube.com/@axylprojects",
         twitch: "https://twitch.tv/axylprojects",
         blueSky: "https://bsky.app/profile/awfixer.me",
+        patreon: "https://patreon.com/axylprojects",
+        reddit: "https://reddit.com/r/Axyl",
       },
       editLink: {
         baseUrl: "https://github.com/Axyl-Sites/axylprojects.dev/tree/main/",
@@ -38,6 +40,19 @@ export default defineConfig({
       sidebar: [
         {
           label: "Announcements",
+          items: [
+            {
+              label: "What is Happening",
+              link: "/en/announcements/what-is-happening",
+            },
+            {
+              label: "We are hiring",
+              link: "/en/announcements/we-are-hiring",
+            },
+          ],
+        },
+        {
+          label: "Funding",
           items: [
             {
               label: "What is Happening",
@@ -87,7 +102,7 @@ export default defineConfig({
               ],
             },
             {
-              label: "Dev Program",
+              label: "Mod Program",
               items: [
                 {
                   label: "About",
@@ -104,7 +119,7 @@ export default defineConfig({
               ],
             },
             {
-              label: "Dev Program",
+              label: "SysAdmin Program",
               items: [
                 {
                   label: "About",
@@ -121,7 +136,7 @@ export default defineConfig({
               ],
             },
             {
-              label: "Dev Program",
+              label: "NetAdmin Program",
               items: [
                 {
                   label: "About",
@@ -138,41 +153,7 @@ export default defineConfig({
               ],
             },
             {
-              label: "Dev Program",
-              items: [
-                {
-                  label: "About",
-                  link: "/en/dev-program/program-info",
-                },
-                {
-                  label: "About",
-                  link: "/en/dev-program/program-info",
-                },
-                {
-                  label: "About",
-                  link: "/en/dev-program/program-info",
-                },
-              ],
-            },
-            {
-              label: "Dev Program",
-              items: [
-                {
-                  label: "About",
-                  link: "/en/dev-program/program-info",
-                },
-                {
-                  label: "About",
-                  link: "/en/dev-program/program-info",
-                },
-                {
-                  label: "About",
-                  link: "/en/dev-program/program-info",
-                },
-              ],
-            },
-            {
-              label: "Dev Program",
+              label: "Onboarding Program",
               items: [
                 {
                   label: "About",
@@ -290,12 +271,8 @@ export default defineConfig({
               link: "/en/community/submitting-bugs",
             },
             {
-              label: "Submitting Themes",
-              link: "/en/community/submitting-themes",
-            },
-            {
-              label: "Submitting Tools in Axyl",
-              link: "/en/community/submitting-tools-axyl",
+              label: "Submitting Projects in Axyl",
+              link: "/en/community/submitting-projects-axyl",
             },
           ],
         },
@@ -412,20 +389,20 @@ export default defineConfig({
             },
           ],
         },
-        {
-          label: "Sites",
-          items: [
-            {
-              label: "ME",
-              items: [
-                {
-                  label: "AWFixer",
-                  link: "/en/sites/me/awfixer",
-                },
-              ],
-            },
-          ],
-        },
+        //        {
+        //          label: "Sites",
+        //          items: [
+        //            {
+        //              label: "ME",
+        //              items: [
+        //                {
+        //                  label: "AWFixer",
+        //                  link: "/en/sites/me/awfixer",
+        //                },
+        //              ],
+        //            },
+        //          ],
+        //        },
         {
           label: "Policy",
           items: [
