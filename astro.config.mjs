@@ -56,11 +56,11 @@ export default defineConfig({
           items: [
             {
               label: "What is Happening",
-              link: "/en/announcements/what-is-happening",
+              link: "/en/funding/how-to-help",
             },
             {
               label: "We are hiring",
-              link: "/en/announcements/we-are-hiring",
+              link: "/en/funding/what-we-need",
             },
           ],
         },
@@ -85,6 +85,10 @@ export default defineConfig({
           label: "Programs",
           items: [
             {
+              label: "About Our Programs",
+              link: "/en/programs/about",
+            },
+            {
               label: "Dev Program",
               items: [
                 {
@@ -106,15 +110,15 @@ export default defineConfig({
               items: [
                 {
                   label: "About",
-                  link: "/en/dev-program/program-info",
+                  link: "/en/programs/mod-program/program-info",
                 },
                 {
-                  label: "About",
-                  link: "/en/dev-program/program-info",
+                  label: "Availiblity",
+                  link: "/en/programs/mod-program/availiblity",
                 },
                 {
-                  label: "About",
-                  link: "/en/dev-program/program-info",
+                  label: "Timeline",
+                  link: "/en/programs/mod-program/timeline",
                 },
               ],
             },
@@ -140,29 +144,21 @@ export default defineConfig({
               items: [
                 {
                   label: "About",
-                  link: "/en/dev-program/program-info",
+                  link: "/en/programs/netadmin-program/program-info",
                 },
                 {
-                  label: "About",
-                  link: "/en/dev-program/program-info",
+                  label: "Pricing",
+                  link: "/en/programs/netadmin-program/pricing",
                 },
                 {
-                  label: "About",
-                  link: "/en/dev-program/program-info",
+                  label: "Availiblity",
+                  link: "/en/programs/dev-program/availiblity",
                 },
               ],
             },
             {
               label: "Onboarding Program",
               items: [
-                {
-                  label: "About",
-                  link: "/en/dev-program/program-info",
-                },
-                {
-                  label: "About",
-                  link: "/en/dev-program/program-info",
-                },
                 {
                   label: "About",
                   link: "/en/dev-program/program-info",
