@@ -11,9 +11,4 @@
 
 for any question you can either join the [Discord](https://axyl.wtf/discord) or send us an email @ devwork@awfixer.me
 
-
-# Site Timeline:
-
-### Q1 2025:
-
-finish site.
+See todo.md for more informaton on what is todo and what is todone
