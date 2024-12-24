@@ -3,7 +3,7 @@ import starlight from "@astrojs/starlight";
 import react from "@astrojs/react";
 
 export default defineConfig({
-  site: "https://axylprojects.dev/",
+  site: "https://theautismcommunity.net/",
   base: "/",
   integrations: [
     starlight({
