@@ -21,14 +21,14 @@ export default defineConfig({
         ? ["./src/styles/_global.css"]
         : ["./src/styles/landing.css", "./src/styles/_global.css"],
       social: {
-        github: "https://github.com/Axyl-Projects",
+        github: "https://github.com/The-Autists",
         twitter: "https://x.com/@awfixer",
         discord: "https://discord.gg/awfixer",
         youtube: "https://youtube.com/@awfixer",
         twitch: "https://twitch.tv/awfixer",
         blueSky: "https://bsky.app/profile/awfixer.me",
         patreon: "https://patreon.com/axylprojects",
-        reddit: "https://reddit.com/r/Axyl",
+        reddit: "https://reddit.com/r/awfixer",
       },
       editLink: {
         baseUrl: "https://github.com/Axyl-Sites/axylprojects.dev/tree/main/",
@@ -64,18 +64,18 @@ export default defineConfig({
           ],
         },
         {
-          label: "About Axyl Projects",
+          label: "About The Autists",
           items: [
             {
               label: "Manifesto",
               link: "/en/about/manifesto",
             },
             {
-              label: "Why Axyl Projects?",
+              label: "Why The Autists?",
               link: "/en/about/axyl-projects",
             },
             {
-              label: "Background on Axyl Projects",
+              label: "Background on The Autists",
               link: "/en/about/background",
             },
           ],
@@ -250,7 +250,7 @@ export default defineConfig({
               link: "/en/community/discord",
             },
             {
-              label: "Contribute to Axyl Projects",
+              label: "Contribute to The Autists",
               link: "/en/community/contribute",
             },
             {
@@ -258,7 +258,7 @@ export default defineConfig({
               link: "/en/community/getting-help",
             },
             {
-              label: "Official Axyl Projects Mirrors",
+              label: "Official The Autists Mirrors",
               link: "/en/community/mirrors",
             },
             {
@@ -406,43 +406,43 @@ export default defineConfig({
           label: "Policy",
           items: [
             {
-              label: "Axyl Projects EULA",
+              label: "The Autists EULA",
               link: "/en/policy/eula-policy",
             },
             {
-              label: "Axyl Projects Network Service Policy",
+              label: "The Autists Network Service Policy",
               link: "/en/policy/network-policy",
             },
             {
-              label: "Axyl Projects Code of Conduct",
+              label: "The Autists Code of Conduct",
               link: "/en/policy/code-of-conduct",
             },
             {
-              label: "Axyl Projects Collaboration Policy",
+              label: "The Autists Collaboration Policy",
               link: "/en/policy/collaboration-policy",
             },
             {
-              label: "Axyl Projects Open Source Policy",
+              label: "The Autists Open Source Policy",
               link: "/en/policy/opensource-policy",
             },
             {
-              label: "Axyl Projects Package Policy",
+              label: "The Autists Package Policy",
               link: "/en/policy/package-policy",
             },
             {
-              label: "Axyl Projects Pentesting Tools Policy",
+              label: "The Autists Pentesting Tools Policy",
               link: "/en/policy/tools-policy",
             },
             {
-              label: "Axyl Projects Privacy Policy",
+              label: "The Autists Privacy Policy",
               link: "/en/policy/privacy-policy",
             },
             {
-              label: "Axyl Projects Update Policy",
+              label: "The Autists Update Policy",
               link: "/en/policy/update-policy",
             },
             {
-              label: "Axyl Projects User Policy",
+              label: "The Autists User Policy",
               link: "/en/policy/user-policy",
             },
             {

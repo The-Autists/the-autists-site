@@ -1,4 +1,4 @@
-# Axyl Projects main website, maintained by [Austin "AWFixer" Ware](https://github.com/awfixer)
+# The Autists main website, maintained by [Austin "AWFixer" Ware](https://github.com/awfixer)
 
 ### There are many moving parts in this site and it is currently being actively worked
 
