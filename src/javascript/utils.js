@@ -1,12 +1,7 @@
 document.addEventListener("DOMContentLoaded", (event) => {
   const letters = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
   const word = document.querySelector("#changing_text");
-  const texts = [
-    "Jr Professionals.",
-    "Bug Bounty Hunters.",
-    "Passionate Students.",
-    "Aspiring Hackers.",
-  ];
+  const texts = ["Rebels.", "Autists.", "Learners.", "Friends."];
   let textIndex = 0;
 
   let isAnimating = false;
