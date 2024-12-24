@@ -7,15 +7,15 @@ export default defineConfig({
   base: "/",
   integrations: [
     starlight({
-      title: "Axyl Projects",
-      description: "Axyl Projects, a new Development soloution.",
+      title: "The Autists",
+      description: "The Autists, Defiantly maintaining Reality",
       components: {
         TableOfContents: "./src/components/TOC.astro",
         PageTitle: "./src/components/CustomPageTitle.astro",
       },
       logo: {
-        light: "/src/assets/gold.png",
-        dark: "/src/assets/gold.png",
+        light: "/src/assets/lucky-star.gif",
+        dark: "/src/assets/lucky-star.gif",
       },
       customCss: process.env.NO_GRADIENTS
         ? ["./src/styles/_global.css"]
